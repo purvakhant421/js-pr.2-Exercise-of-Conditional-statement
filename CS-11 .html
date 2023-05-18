@@ -1,0 +1,33 @@
+<!--11. Write a JavaScript program to create basic calculator using ledder if else.-->
+<script>
+    
+    var  num1 = parseFloat(prompt("Enter first number:"));
+    var  num2 = parseFloat(prompt("Enter second number:"));
+    var  operation = prompt("Enter an operator (+, -, *, /): ");
+
+
+    if (operation === "+") {
+        var result = num1 + num2;
+        document.write("Addition:- " + result);
+    } 
+    else if (operation === "-") {
+        var result = num1 - num2;
+        document.write("Subtraction:- " + result);
+    } 
+    else if (operation === "*") {
+        var result = num1 * num2;
+        document.write("Multiplication:- " + result);
+    } 
+    else if (operation === "/") {
+        var result = num1 / num2;
+        document.write("Division:- " + result);
+    } 
+    else {
+        document.write("Invalid operation");
+}
+</script>
+ 
+
+
+
+    
